@@ -1,10 +1,10 @@
-// components/movie/movie.js
+// components/essay/essay.js
 let beh = require('../component-beh')
 Component({
   /**
    * 组件的属性列表
    */
-  behaviors: [beh],
+  behaviors:[beh],
   /**
    * 组件的初始数据
    */

@@ -1,0 +1,6 @@
+<!--components/essay/essay.wxml-->
+<view>
+  <image src="" />
+  <image src="" />
+  <text></text>   
+</view>>
