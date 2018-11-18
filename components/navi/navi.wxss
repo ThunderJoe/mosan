@@ -1,0 +1,13 @@
+.container{
+  width:600rpx;
+  height:60rpx;
+  display:inline-flex;
+  justify-content:space-between;
+  flex-direction:row;
+  align-items:center;
+}
+
+.icon{
+  width:60px;
+  height:60px;
+}

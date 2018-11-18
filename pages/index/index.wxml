@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='header'>
+    <v-epsoide class='epsoide' index = "{{classicData.data.index}}"></v-epsoide> 
+    <v-like class='like' bind:like='onLike' like = "{{classicData.data.like_status}}" count = "{{classicData.data.fav_nums}}" />
+  </view>
+  <v-movie class='movie' img = "{{classicData.data.image}}" content = "{{classicData.data.content}}"/>
+  <v-navi class='navi' bind:right="onNext" bind:left="onPre"  title = "{{classicData.data.title}}" first="{{first}}" latest="{{latest}}">
+  
+  </v-navi>
+</view>

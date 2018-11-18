@@ -1,0 +1,17 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+} 
+
+page{
+  font-family:'PingFang-Thin';
+}
+
+/*组件可继承的样式
+  字体大小 font 字体颜色color
+*/
